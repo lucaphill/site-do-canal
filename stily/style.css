@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,900&family=Concert+One&family=Rowdies:wght@300;700&family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700&family=Concert+One&family=Rowdies:wght@300;700&family=Sansita&display=swap');
 
 :root {
     --cor-primaria: #242C32;
@@ -11,7 +11,7 @@
     --fonte-principal: 'concert one', sans-serif;
     --fonte-secundaria: 'Rowdies', sans-serif;
     --fonte-principal: 'Sansita', sans-serif;
-}
+};
 
 * {
     margin: 0;
@@ -25,10 +25,10 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     box-sizing: border-box;
-}
+};
 .cabecalho{
     background-color: var(--cor-secundaria);
-    padding: 1% 2% 1% 2%;
+    padding: 0% 0% 0% 0%;
 }
 .cabecalhoMenu{
     background-color: var(--cor-secundaria);
@@ -37,40 +37,4 @@ body {
     justify-content: space-between;
     font-family: var(--fonte-titulo);
     font-size: 30px;
-}
-.cabecalhoMenuNome {
-    padding: 0.5% 0% 0% 0%;
-    font-size: 80px;
-}
-.cabecalhoMenuPesquisa {
-    background-color: var(--cor-tercearia);
-    border: 1px solid var(--cor-tercearia);
-    color: var(--cor-texto);
-    padding: 1em;
-    width: 60%;
-    border-radius: 90px;
-}
-
-.cabecalhoMenuIcone {
-    padding: 0% 0%
-}
-
-.conteudo {
-    padding: 3% 3% 3% 2%;;
-
-}
-.conteudoTitulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 60px;
-    line-height: 1.5em;
-}
-.conteudoTexto {
-    font-family: var(--fonte-secundaria);
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.5em;
-}
-.conteudoImagem {
-    width: 30%;
-    display: flex;
 }
